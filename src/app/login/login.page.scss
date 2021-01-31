@@ -1,0 +1,53 @@
+ion-content {
+    background-color: #ffffff;
+
+  ion-grid {
+    ion-row {
+      ion-col {
+        justify-content: center;
+        .img{
+            img {
+                border-radius: 100%;
+                width: 150px;
+              }
+        }
+        .img-qr{
+            img{
+                width:70%  ;
+            }
+        }
+        h2 {
+          font-family: boonban;
+          font-size:40px;
+        }
+      }
+    }
+  }
+//   ion-list {
+
+//     h4 {
+//       font-family: phetsalath;
+//     }
+//     ion-item {
+
+//       ion-icon {
+//         color: #8d8f93;
+//         margin: 12px;
+//       }
+//       ion-input {
+//         font-family: phetsalath;
+//       }
+//       ion-label {
+//         font-family: phetsalath;
+//         color: #3b5076;
+//       }
+//     }
+//   }
+  .login-btn {
+      margin-top: 50px;
+    ion-button {
+      font-family: boonban;
+
+    }
+  }
+}

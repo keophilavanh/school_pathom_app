@@ -1,0 +1,48 @@
+
+
+
+ion-content {
+    // background-color: #6a6c74;
+  //   background-color: red;
+    --background: #ebebeb !important;
+  }
+  
+
+ion-content {
+  ion-grid {
+    width: 100%;
+    ion-row {
+      width: 100%;
+
+      ion-col {
+        background-color: #bde2f3;
+        .profile {
+          img {
+            width: 150px;
+            border-radius: 200px;
+          }
+        }
+        .name {
+          h1 {
+            font-family: boonban;
+          }
+        }
+      }
+     
+    }
+  }
+  ion-row{
+    ion-list{
+        ion-item{
+            padding: 7px;
+            ion-label{
+                font-family: boonban;
+            }
+            ion-text{
+              font-family: boonban;
+
+            }
+        }
+    }
+  }
+}

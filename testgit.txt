@@ -1,0 +1,6 @@
+#62bbff   theme
+
+fontt = #748ccc
+
+some box #3b5076
+font-color:#8d8f93

@@ -1,17 +1,73 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar color="primary">
+  
+    <ion-title class="ion-text-center">
+     WeSchools
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+ <ion-grid fixed>
+   <ion-row>
+     <ion-col size="12">
+       <div class="ion-text-center img">
+       <img src="../../assets/Images/student.jpg" alt="">
+       </div>
+       <div class="ion-text-center name" >
+         <h2>ນາງ  ມຸກດາ ຈັນທະວົງສາ</h2>
+         <p>ຊັ້ນ: ປໍ 5</p>
+         <p>ສົກຮຽນ:2021-2022 </p>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+       </div>
+     </ion-col>
+   </ion-row>
+ </ion-grid>
+
+ <ion-grid fixed>
+   <ion-row>
+     <ion-col size="5.8" [routerLink]="['/student-profile']" >
+      <ion-card class="menu-card ion-no-margin" color="primary">
+        <ion-card-content  class="ion-text-center">
+          <ion-icon name="person-sharp"></ion-icon><br>
+            <ion-label>
+                ຂໍ້ມູນນັກຮຽນ
+            </ion-label>
+        </ion-card-content>
+    </ion-card>
+     </ion-col>
+     <ion-col size="5.8" >
+      <ion-card class="menu-card ion-no-margin" color="primary" routerLink="/student-point">
+        <ion-card-content class="ion-text-center">
+          <ion-icon name="podium-sharp"></ion-icon>
+          <br>
+            <ion-label>
+                ຄະເເນນ
+            </ion-label>
+        </ion-card-content>
+    </ion-card>
+     </ion-col>
+     <ion-col size="5.8">
+      <ion-card class="menu-card ion-no-margin" color="primary" routerLink="/moneypayment">
+        <ion-card-content  class="ion-text-center">
+          <ion-icon name="reader-sharp"></ion-icon>
+          <br>
+            <ion-label>
+                ການຊໍາລະເງິນ
+            </ion-label>
+        </ion-card-content>
+    </ion-card>
+     </ion-col>
+     <ion-col size="5.8">
+      <ion-card class="menu-card ion-no-margin" color="primary">
+        <ion-card-content  class="ion-text-center">
+          <ion-icon name="notifications-sharp" ></ion-icon>
+          <br>
+            <ion-label>
+                ແຈ້ງການ
+            </ion-label>
+        </ion-card-content>
+    </ion-card>
+     </ion-col>
+   </ion-row>
+ </ion-grid>
 </ion-content>

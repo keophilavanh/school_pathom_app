@@ -1,0 +1,31 @@
+
+ion-content {
+    // background-color: #6a6c74;
+  //   background-color: red;
+    --background: #ebebeb !important;
+  }
+  
+  ion-header{
+    // background:#9c0000 !important;
+      ion-toolbar{
+          height: 70px;
+          display: flex;
+          align-items: center;
+          ion-title{
+                  font-family: boonban;
+          }
+      }
+  }
+ion-content{
+    ion-list{
+        ion-item{
+            ion-label{
+                font-family: boonban;
+            }
+            ion-text{
+                font-family: boonban;
+
+            }
+        }
+    }
+}

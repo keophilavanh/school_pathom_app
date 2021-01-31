@@ -1,0 +1,52 @@
+ion-header {
+    ion-toolbar{
+      background-color: #0172be;
+        height: 70px;
+        ion-title{
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    }
+}
+
+ion-content {
+  //header logo
+  background-color: #bde2f3;
+  ion-grid {
+    ion-row {
+      ion-col {
+        .img {
+          img {
+            width: 150px;
+          }
+        }
+        .name {
+          font-family: boonban;
+          color: #8d8f93;
+        }
+      }
+    }
+  }
+  // list box menu
+
+  ion-grid {
+    ion-row {
+      ion-col {
+        ion-card {
+            background-color: #0172be;
+          ion-card-content {
+            ion-icon {
+              font-size: 40px;
+              color: white;
+            }
+            ion-label {
+              font-family: boonban;
+              color: white;
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

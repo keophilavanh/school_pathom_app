@@ -1,1 +1,49 @@
 
+ion-tabs {
+    font-family: boonhom;
+    ion-tab-bar {
+        // background-color: #62bbff !important;
+        // --background: var(--red-b) !important;
+       --background: #0172be !important;
+
+        --border: #9c0000!important;
+        ion-tab-button {
+            --ripple-color: var(--transparent) !important;
+            position: relative;
+            ion-label {
+                color: var(--text-light);
+                font-size: .75rem;
+                font-family: boonban;
+
+            }
+            ion-icon {
+                color: var(--text-light);
+                font-size: 1.2rem;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                width: 0;
+                height: 3px;
+                background: var(--white);
+                transition: all .3s;
+            }
+            &.tab-selected {
+                ion-label {
+                    color: var(--white);
+                }
+                ion-icon {
+                    color: var(--white);
+                }
+                &::after {
+                    width: 55px;
+                }
+            }
+        }
+    }
+}
+

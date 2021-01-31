@@ -1,0 +1,70 @@
+ion-content {
+  // background-color: #6a6c74;
+//   background-color: red;
+  --background: #ebebeb !important;
+}
+
+ion-header{
+  background:#9c0000 !important;
+    ion-toolbar{
+        height: 70px;
+        display: flex;
+        align-items: center;
+        ion-title{
+            h2{
+                font-family: boonban;
+
+            }
+        }
+    }
+}
+ion-content {
+  ion-grid{
+      ion-row{
+          ion-col{
+              h2{
+                font-family: boonban;
+
+              }
+          }
+      }
+  }
+  section {
+    ion-list{
+        margin-top: 10px;
+        ion-row {
+            --background: #ebebeb !important;
+          
+                ion-col {
+          
+                    margin-top: 10px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  // background-color: #f5f5f5;
+                  // background-color: #ffffff;
+          
+                  .classleft {
+                      h2{
+                          font-size: 14px;
+                      }
+                    width: 55%;
+                    font-family: boonban;
+                  }
+                  .classright {
+                      h2{
+                          font-size: 14px;
+                      }
+                    width: 45%;
+                    text-align: end;
+                    font-family: boonban;
+                    .status{
+                            color: #eb445a;
+                    }
+                  }
+                }
+              }
+    }
+   
+  }
+}
